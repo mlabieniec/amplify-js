@@ -3,7 +3,7 @@
 <head>
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<title>AmplifyConfig | @aws-amplify/analytics</title>
+	<title>AuthOptions | @aws-amplify/analytics</title>
 	<meta name="description" content="">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="stylesheet" href="../assets/css/main.css">
@@ -56,21 +56,28 @@
 					<a href="../globals.html">Globals</a>
 				</li>
 				<li>
-					<a href="amplifyconfig.html">AmplifyConfig</a>
+					<a href="authoptions.html">AuthOptions</a>
 				</li>
 			</ul>
-			<h1>Interface AmplifyConfig</h1>
+			<h1>Interface AuthOptions</h1>
 		</div>
 	</div>
 </header>
 <div class="container container-main">
 	<div class="row">
 		<div class="col-8 col-content">
+			<section class="tsd-panel tsd-comment">
+				<div class="tsd-comment tsd-typography">
+					<div class="lead">
+						<p>Auth instance options</p>
+					</div>
+				</div>
+			</section>
 			<section class="tsd-panel tsd-hierarchy">
 				<h3>Hierarchy</h3>
 				<ul class="tsd-hierarchy">
 					<li>
-						<span class="target">AmplifyConfig</span>
+						<span class="target">AuthOptions</span>
 					</li>
 				</ul>
 			</section>
@@ -81,12 +88,17 @@
 						<section class="tsd-index-section ">
 							<h3>Properties</h3>
 							<ul class="tsd-index-list">
-								<li class="tsd-kind-property tsd-parent-kind-interface"><a href="amplifyconfig.html#api" class="tsd-kind-icon">API</a></li>
-								<li class="tsd-kind-property tsd-parent-kind-interface"><a href="amplifyconfig.html#analytics" class="tsd-kind-icon">Analytics</a></li>
-								<li class="tsd-kind-property tsd-parent-kind-interface"><a href="amplifyconfig.html#auth" class="tsd-kind-icon">Auth</a></li>
-								<li class="tsd-kind-property tsd-parent-kind-interface"><a href="amplifyconfig.html#cache" class="tsd-kind-icon">Cache</a></li>
-								<li class="tsd-kind-property tsd-parent-kind-interface"><a href="amplifyconfig.html#storage" class="tsd-kind-icon">Storage</a></li>
-								<li class="tsd-kind-property tsd-parent-kind-interface"><a href="amplifyconfig.html#xr" class="tsd-kind-icon">XR</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-interface"><a href="authoptions.html#authenticationflowtype" class="tsd-kind-icon">authentication<wbr>Flow<wbr>Type</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-interface"><a href="authoptions.html#cookiestorage" class="tsd-kind-icon">cookie<wbr>Storage</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-interface"><a href="authoptions.html#identitypoolid" class="tsd-kind-icon">identity<wbr>Pool<wbr>Id</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-interface"><a href="authoptions.html#identitypoolregion" class="tsd-kind-icon">identity<wbr>Pool<wbr>Region</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-interface"><a href="authoptions.html#mandatorysignin" class="tsd-kind-icon">mandatory<wbr>Sign<wbr>In</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-interface"><a href="authoptions.html#oauth" class="tsd-kind-icon">oauth</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-interface"><a href="authoptions.html#refreshhandlers" class="tsd-kind-icon">refresh<wbr>Handlers</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-interface"><a href="authoptions.html#region" class="tsd-kind-icon">region</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-interface"><a href="authoptions.html#storage" class="tsd-kind-icon">storage</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-interface"><a href="authoptions.html#userpoolid" class="tsd-kind-icon">user<wbr>Pool<wbr>Id</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-interface"><a href="authoptions.html#userpoolwebclientid" class="tsd-kind-icon">user<wbr>Pool<wbr>Web<wbr>Client<wbr>Id</a></li>
 							</ul>
 						</section>
 					</div>
@@ -95,67 +107,112 @@
 			<section class="tsd-panel-group tsd-member-group ">
 				<h2>Properties</h2>
 				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-interface">
-					<a name="api" class="tsd-anchor"></a>
-					<h3><span class="tsd-flag ts-flagOptional">Optional</span> API</h3>
-					<div class="tsd-signature tsd-kind-icon">API<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">object</span></div>
+					<a name="authenticationflowtype" class="tsd-anchor"></a>
+					<h3><span class="tsd-flag ts-flagOptional">Optional</span> authentication<wbr>Flow<wbr>Type</h3>
+					<div class="tsd-signature tsd-kind-icon">authentication<wbr>Flow<wbr>Type<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">string</span></div>
 					<aside class="tsd-sources">
 						<ul>
-							<li>Defined in <a href="https://github.com/mlabieniec/amplify-js/blob/16d49f94/packages/aws-amplify/src/Common/types/types.ts#L4">aws-amplify/src/Common/types/types.ts:4</a></li>
-							<li>Defined in <a href="https://github.com/mlabieniec/amplify-js/blob/16d49f94/packages/core/src/types/types.ts#L4">core/src/types/types.ts:4</a></li>
+							<li>Defined in <a href="https://github.com/mlabieniec/amplify-js/blob/16d49f94/packages/auth/src/types/Auth.ts#L45">auth/src/types/Auth.ts:45</a></li>
 						</ul>
 					</aside>
 				</section>
 				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-interface">
-					<a name="analytics" class="tsd-anchor"></a>
-					<h3><span class="tsd-flag ts-flagOptional">Optional</span> Analytics</h3>
-					<div class="tsd-signature tsd-kind-icon">Analytics<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">object</span></div>
+					<a name="cookiestorage" class="tsd-anchor"></a>
+					<h3><span class="tsd-flag ts-flagOptional">Optional</span> cookie<wbr>Storage</h3>
+					<div class="tsd-signature tsd-kind-icon">cookie<wbr>Storage<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">ICookieStorageData</span></div>
 					<aside class="tsd-sources">
 						<ul>
-							<li>Defined in <a href="https://github.com/mlabieniec/amplify-js/blob/16d49f94/packages/aws-amplify/src/Common/types/types.ts#L2">aws-amplify/src/Common/types/types.ts:2</a></li>
-							<li>Defined in <a href="https://github.com/mlabieniec/amplify-js/blob/16d49f94/packages/core/src/types/types.ts#L2">core/src/types/types.ts:2</a></li>
+							<li>Defined in <a href="https://github.com/mlabieniec/amplify-js/blob/16d49f94/packages/auth/src/types/Auth.ts#L41">auth/src/types/Auth.ts:41</a></li>
 						</ul>
 					</aside>
 				</section>
 				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-interface">
-					<a name="auth" class="tsd-anchor"></a>
-					<h3><span class="tsd-flag ts-flagOptional">Optional</span> Auth</h3>
-					<div class="tsd-signature tsd-kind-icon">Auth<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">object</span></div>
+					<a name="identitypoolid" class="tsd-anchor"></a>
+					<h3><span class="tsd-flag ts-flagOptional">Optional</span> identity<wbr>Pool<wbr>Id</h3>
+					<div class="tsd-signature tsd-kind-icon">identity<wbr>Pool<wbr>Id<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">string</span></div>
 					<aside class="tsd-sources">
 						<ul>
-							<li>Defined in <a href="https://github.com/mlabieniec/amplify-js/blob/16d49f94/packages/aws-amplify/src/Common/types/types.ts#L3">aws-amplify/src/Common/types/types.ts:3</a></li>
-							<li>Defined in <a href="https://github.com/mlabieniec/amplify-js/blob/16d49f94/packages/core/src/types/types.ts#L3">core/src/types/types.ts:3</a></li>
+							<li>Defined in <a href="https://github.com/mlabieniec/amplify-js/blob/16d49f94/packages/auth/src/types/Auth.ts#L38">auth/src/types/Auth.ts:38</a></li>
 						</ul>
 					</aside>
 				</section>
 				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-interface">
-					<a name="cache" class="tsd-anchor"></a>
-					<h3><span class="tsd-flag ts-flagOptional">Optional</span> Cache</h3>
-					<div class="tsd-signature tsd-kind-icon">Cache<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">object</span></div>
+					<a name="identitypoolregion" class="tsd-anchor"></a>
+					<h3><span class="tsd-flag ts-flagOptional">Optional</span> identity<wbr>Pool<wbr>Region</h3>
+					<div class="tsd-signature tsd-kind-icon">identity<wbr>Pool<wbr>Region<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">string</span></div>
 					<aside class="tsd-sources">
 						<ul>
-							<li>Defined in <a href="https://github.com/mlabieniec/amplify-js/blob/16d49f94/packages/aws-amplify/src/Common/types/types.ts#L6">aws-amplify/src/Common/types/types.ts:6</a></li>
-							<li>Defined in <a href="https://github.com/mlabieniec/amplify-js/blob/16d49f94/packages/core/src/types/types.ts#L6">core/src/types/types.ts:6</a></li>
+							<li>Defined in <a href="https://github.com/mlabieniec/amplify-js/blob/16d49f94/packages/auth/src/types/Auth.ts#L46">auth/src/types/Auth.ts:46</a></li>
+						</ul>
+					</aside>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-interface">
+					<a name="mandatorysignin" class="tsd-anchor"></a>
+					<h3><span class="tsd-flag ts-flagOptional">Optional</span> mandatory<wbr>Sign<wbr>In</h3>
+					<div class="tsd-signature tsd-kind-icon">mandatory<wbr>Sign<wbr>In<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">boolean</span></div>
+					<aside class="tsd-sources">
+						<ul>
+							<li>Defined in <a href="https://github.com/mlabieniec/amplify-js/blob/16d49f94/packages/auth/src/types/Auth.ts#L40">auth/src/types/Auth.ts:40</a></li>
+						</ul>
+					</aside>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-interface">
+					<a name="oauth" class="tsd-anchor"></a>
+					<h3><span class="tsd-flag ts-flagOptional">Optional</span> oauth</h3>
+					<div class="tsd-signature tsd-kind-icon">oauth<span class="tsd-signature-symbol">:</span> <a href="oauth.html" class="tsd-signature-type">OAuth</a></div>
+					<aside class="tsd-sources">
+						<ul>
+							<li>Defined in <a href="https://github.com/mlabieniec/amplify-js/blob/16d49f94/packages/auth/src/types/Auth.ts#L42">auth/src/types/Auth.ts:42</a></li>
+						</ul>
+					</aside>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-interface">
+					<a name="refreshhandlers" class="tsd-anchor"></a>
+					<h3><span class="tsd-flag ts-flagOptional">Optional</span> refresh<wbr>Handlers</h3>
+					<div class="tsd-signature tsd-kind-icon">refresh<wbr>Handlers<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">object</span></div>
+					<aside class="tsd-sources">
+						<ul>
+							<li>Defined in <a href="https://github.com/mlabieniec/amplify-js/blob/16d49f94/packages/auth/src/types/Auth.ts#L43">auth/src/types/Auth.ts:43</a></li>
+						</ul>
+					</aside>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-interface">
+					<a name="region" class="tsd-anchor"></a>
+					<h3><span class="tsd-flag ts-flagOptional">Optional</span> region</h3>
+					<div class="tsd-signature tsd-kind-icon">region<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">string</span></div>
+					<aside class="tsd-sources">
+						<ul>
+							<li>Defined in <a href="https://github.com/mlabieniec/amplify-js/blob/16d49f94/packages/auth/src/types/Auth.ts#L39">auth/src/types/Auth.ts:39</a></li>
 						</ul>
 					</aside>
 				</section>
 				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-interface">
 					<a name="storage" class="tsd-anchor"></a>
-					<h3><span class="tsd-flag ts-flagOptional">Optional</span> Storage</h3>
-					<div class="tsd-signature tsd-kind-icon">Storage<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">object</span></div>
+					<h3><span class="tsd-flag ts-flagOptional">Optional</span> storage</h3>
+					<div class="tsd-signature tsd-kind-icon">storage<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">ICognitoStorage</span></div>
 					<aside class="tsd-sources">
 						<ul>
-							<li>Defined in <a href="https://github.com/mlabieniec/amplify-js/blob/16d49f94/packages/aws-amplify/src/Common/types/types.ts#L5">aws-amplify/src/Common/types/types.ts:5</a></li>
-							<li>Defined in <a href="https://github.com/mlabieniec/amplify-js/blob/16d49f94/packages/core/src/types/types.ts#L5">core/src/types/types.ts:5</a></li>
+							<li>Defined in <a href="https://github.com/mlabieniec/amplify-js/blob/16d49f94/packages/auth/src/types/Auth.ts#L44">auth/src/types/Auth.ts:44</a></li>
 						</ul>
 					</aside>
 				</section>
 				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-interface">
-					<a name="xr" class="tsd-anchor"></a>
-					<h3><span class="tsd-flag ts-flagOptional">Optional</span> XR</h3>
-					<div class="tsd-signature tsd-kind-icon">XR<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">object</span></div>
+					<a name="userpoolid" class="tsd-anchor"></a>
+					<h3>user<wbr>Pool<wbr>Id</h3>
+					<div class="tsd-signature tsd-kind-icon">user<wbr>Pool<wbr>Id<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">string</span></div>
 					<aside class="tsd-sources">
 						<ul>
-							<li>Defined in <a href="https://github.com/mlabieniec/amplify-js/blob/16d49f94/packages/aws-amplify/src/Common/types/types.ts#L7">aws-amplify/src/Common/types/types.ts:7</a></li>
+							<li>Defined in <a href="https://github.com/mlabieniec/amplify-js/blob/16d49f94/packages/auth/src/types/Auth.ts#L36">auth/src/types/Auth.ts:36</a></li>
+						</ul>
+					</aside>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-interface">
+					<a name="userpoolwebclientid" class="tsd-anchor"></a>
+					<h3>user<wbr>Pool<wbr>Web<wbr>Client<wbr>Id</h3>
+					<div class="tsd-signature tsd-kind-icon">user<wbr>Pool<wbr>Web<wbr>Client<wbr>Id<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">string</span></div>
+					<aside class="tsd-sources">
+						<ul>
+							<li>Defined in <a href="https://github.com/mlabieniec/amplify-js/blob/16d49f94/packages/auth/src/types/Auth.ts#L37">auth/src/types/Auth.ts:37</a></li>
 						</ul>
 					</aside>
 				</section>
@@ -174,25 +231,40 @@
 				</ul>
 				<ul class="current">
 					<li class="current tsd-kind-interface">
-						<a href="amplifyconfig.html" class="tsd-kind-icon">Amplify<wbr>Config</a>
+						<a href="authoptions.html" class="tsd-kind-icon">Auth<wbr>Options</a>
 						<ul>
 							<li class=" tsd-kind-property tsd-parent-kind-interface">
-								<a href="amplifyconfig.html#api" class="tsd-kind-icon">API</a>
+								<a href="authoptions.html#authenticationflowtype" class="tsd-kind-icon">authentication<wbr>Flow<wbr>Type</a>
 							</li>
 							<li class=" tsd-kind-property tsd-parent-kind-interface">
-								<a href="amplifyconfig.html#analytics" class="tsd-kind-icon">Analytics</a>
+								<a href="authoptions.html#cookiestorage" class="tsd-kind-icon">cookie<wbr>Storage</a>
 							</li>
 							<li class=" tsd-kind-property tsd-parent-kind-interface">
-								<a href="amplifyconfig.html#auth" class="tsd-kind-icon">Auth</a>
+								<a href="authoptions.html#identitypoolid" class="tsd-kind-icon">identity<wbr>Pool<wbr>Id</a>
 							</li>
 							<li class=" tsd-kind-property tsd-parent-kind-interface">
-								<a href="amplifyconfig.html#cache" class="tsd-kind-icon">Cache</a>
+								<a href="authoptions.html#identitypoolregion" class="tsd-kind-icon">identity<wbr>Pool<wbr>Region</a>
 							</li>
 							<li class=" tsd-kind-property tsd-parent-kind-interface">
-								<a href="amplifyconfig.html#storage" class="tsd-kind-icon">Storage</a>
+								<a href="authoptions.html#mandatorysignin" class="tsd-kind-icon">mandatory<wbr>Sign<wbr>In</a>
 							</li>
 							<li class=" tsd-kind-property tsd-parent-kind-interface">
-								<a href="amplifyconfig.html#xr" class="tsd-kind-icon">XR</a>
+								<a href="authoptions.html#oauth" class="tsd-kind-icon">oauth</a>
+							</li>
+							<li class=" tsd-kind-property tsd-parent-kind-interface">
+								<a href="authoptions.html#refreshhandlers" class="tsd-kind-icon">refresh<wbr>Handlers</a>
+							</li>
+							<li class=" tsd-kind-property tsd-parent-kind-interface">
+								<a href="authoptions.html#region" class="tsd-kind-icon">region</a>
+							</li>
+							<li class=" tsd-kind-property tsd-parent-kind-interface">
+								<a href="authoptions.html#storage" class="tsd-kind-icon">storage</a>
+							</li>
+							<li class=" tsd-kind-property tsd-parent-kind-interface">
+								<a href="authoptions.html#userpoolid" class="tsd-kind-icon">user<wbr>Pool<wbr>Id</a>
+							</li>
+							<li class=" tsd-kind-property tsd-parent-kind-interface">
+								<a href="authoptions.html#userpoolwebclientid" class="tsd-kind-icon">user<wbr>Pool<wbr>Web<wbr>Client<wbr>Id</a>
 							</li>
 						</ul>
 					</li>

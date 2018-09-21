@@ -3,7 +3,7 @@
 <head>
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<title>aws-amplify</title>
+	<title>@aws-amplify/analytics</title>
 	<meta name="description" content="">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="stylesheet" href="assets/css/main.css">
@@ -22,7 +22,7 @@
 						<li class="state loading">Preparing search index...</li>
 						<li class="state failure">The search index is not available</li>
 					</ul>
-					<a href="index.html" class="title">aws-amplify</a>
+					<a href="index.html" class="title">@aws-amplify/analytics</a>
 				</div>
 				<div class="table-cell" id="tsd-widgets">
 					<div id="tsd-filter">
@@ -56,7 +56,7 @@
 					<a href="globals.html">Globals</a>
 				</li>
 			</ul>
-			<h1> aws-amplify</h1>
+			<h1> @aws-amplify/analytics</h1>
 		</div>
 	</div>
 </header>
@@ -64,9 +64,270 @@
 	<div class="row">
 		<div class="col-8 col-content">
 			<div class="tsd-panel tsd-typography">
-				<h1 id="aws-amplify-package-aws-amplify">AWS Amplify Package - aws-amplify</h1>
-				<p>AWS Amplify is a JavaScript library for frontend and mobile developers building cloud-enabled applications. The library is a declarative interface across different categories of operations in order to make common tasks easier to add into your application. The default implementation works with Amazon Web Services (AWS) resources but is designed to be open and pluggable for usage with other cloud services that wish to provide an implementation or custom backends.</p>
-				<p><code>aws-amplify</code> is the AWS Amplify core library. Documentation is available <a href="https://aws.github.io/aws-amplify/">here</a></p>
+				<p><img src="https://s3.amazonaws.com/aws-mobile-hub-images/aws-amplify-logo.png" alt="AWS Amplify" width="550" ></p>
+				<p><a href="https://nodei.co/npm/aws-amplify/">
+						<img src="https://nodei.co/npm/aws-amplify.svg?downloads=true&downloadRank=true&stars=true">
+				</a></p>
+				<p>
+					<a href="https://gitter.im/AWS-Amplify/Lobby?utm_source=share-link&utm_medium=link&utm_campaign=share-link" target="_blank">
+					<img src="https://badges.gitter.im/aws/aws-amplify.png" alt="Gitter Chat" /><br>  </a>
+					<a href="https://badge.fury.io/js/aws-amplify">
+						<img src="https://badge.fury.io/js/aws-amplify.svg" alt="npm version" height="18">
+					</a>
+					<a href="https://npmjs.org/aws-amplify">
+						<img src="https://img.shields.io/npm/dm/aws-amplify.svg" alt="npm downloads" height="18">
+					</a>
+					<a href="https://codecov.io/gh/aws-amplify/amplify-js">
+						<img src="https://codecov.io/gh/aws-amplify/amplify-js/branch/master/graph/badge.svg" />
+					</a>
+					<a href="https://circleci.com/gh/aws-amplify/amplify-js">
+						<img src="https://img.shields.io/circleci/project/github/aws-amplify/amplify-js/master.svg" alt="build:started">
+					</a>
+				</p>
+				<h3 id="aws-amplify-is-a-javascript-library-for-frontend-and-mobile-developers-building-cloud-enabled-applications-">AWS Amplify is a JavaScript library for frontend and mobile developers building cloud-enabled applications.</h3>
+				<p>AWS Amplify provides a declarative and easy-to-use interface across different categories of cloud operations. AWS Amplify goes well with any JavaScript based frontend workflow, and React Native for mobile developers. </p>
+				<p>Our default implementation works with Amazon Web Services (AWS), but AWS Amplify is designed to be open and pluggable for any custom backend or service.</p>
+				<p>Notice:</p>
+				<p><a href="mailto:Amplify@1.x.x">Amplify@1.x.x</a> has structural changes. For details please check <a href="https://github.com/aws/aws-amplify/wiki/Amplify-modularization">Amplify Modularization</a>.</p>
+				<h3 id="features-apis">Features / APIs</h3>
+				<ul>
+					<li><a href="https://aws.github.io/aws-amplify/media/authentication_guide"><strong>Authentication</strong></a>: APIs and building blocks for developers who want to create user authentication experiences.  </li>
+					<li><a href="https://aws.github.io/aws-amplify/media/analytics_guide"><strong>Analytics</strong></a>: Easily collect analytics data for you app. Analytics data includes user sessions and other custom events that you want to track in your app.  </li>
+					<li><a href="https://aws.github.io/aws-amplify/media/api_guide"><strong>API</strong></a>: Provides a simple solution when making HTTP requests. It provides an automatic, lightweight signing process which complies with AWS Signature Version 4.</li>
+					<li><a href="https://aws.github.io/aws-amplify/media/api_guide#configuration-for-graphql-server"><strong>GraphQL Client</strong></a>: Interact with your GraphQL server or AWS AppSync API with an easy to use &amp; configure GraphQL client.  </li>
+					<li><a href="https://aws.github.io/aws-amplify/media/storage_guide"><strong>Storage</strong></a>: Provides a simple mechanism for managing user content for your app in public, protected or private storage buckets.  </li>
+					<li><a href="https://aws.github.io/aws-amplify/media/push_notifications_setup"><strong>Push Notifications</strong></a>: Allows you to integrate push notifications in your app with Amazon Pinpoint targeting and campaign management support.</li>
+					<li><a href="https://aws.github.io/aws-amplify/media/interactions_guide"><strong>Interactions</strong></a>: Create conversational bots powered by deep learning technologies..  </li>
+					<li><a href="https://aws.github.io/aws-amplify/media/pub_sub_guide"><strong>PubSub</strong></a>: Provides connectivity with cloud-based message-oriented middleware.  </li>
+					<li><a href="https://aws.github.io/aws-amplify/media/i18n_guide"><strong>Internationalization</strong></a>: A lightweight internationalization solution.</li>
+					<li><a href="https://aws.github.io/aws-amplify/media/cache_guide"><strong>Cache</strong></a>: Provides a generic LRU cache for JavaScript developers to store data with priority and expiration settings.  </li>
+				</ul>
+				<h4 id="visit-our-web-site-to-learn-more-about-aws-amplify-">Visit our <a href="https://aws.github.io/aws-amplify">Web Site</a> to learn more about AWS Amplify.</h4>
+				<ul>
+					<li><a href="https://aws.github.io/aws-amplify">Documentation</a></li>
+					<li><a href="#installation">Installation</a></li>
+					<li><a href="#configuration">Configuration</a></li>
+					<li><a href="#examples">Examples</a></li>
+					<li><a href="https://github.com/aws/aws-amplify/blob/master/CONTRIBUTING.md">Contributing</a></li>
+				</ul>
+				<h2 id="installation">Installation</h2>
+				<p>AWS Amplify is available as <code>aws-amplify</code> package on <a href="https://www.npmjs.com/">npm</a></p>
+				<p><strong>Web</strong></p>
+				<pre><code class="lang-bash">$ npm install aws-amplify --save
+</code></pre>
+				<p>or you could install the module you want to use individually:</p>
+				<pre><code class="lang-bash">$ npm install @aws-amplify/auth --save
+</code></pre>
+				<p><strong>React</strong></p>
+				<p>If you are developing a <a href="https://github.com/facebook/react/">React</a> app, you can install an additional package <code>aws-amplify-react</code> containing <a href="https://reactjs.org/docs/higher-order-components.html">Higher Order Components</a>:</p>
+				<pre><code class="lang-bash">$ npm install aws-amplify --save
+$ npm install aws-amplify-react --save
+</code></pre>
+				<p><strong>Angular</strong></p>
+				<p>If you are developing an <a href="https://github.com/angular/angular">Angular</a> app, you can install an additional package <code>aws-amplify-angular</code>. This package contains an <a href="https://docs.angularjs.org/api/ng/function/angular.module">Angular module</a> with a <a href="https://aws.github.io/aws-amplify/media/angular_guide">provider and components</a>:</p>
+				<pre><code class="lang-bash">$ npm install aws-amplify --save
+$ npm install aws-amplify-angular --save
+</code></pre>
+				<p>Visit our <a href="https://aws.github.io/aws-amplify/media/install_n_config?platform=javascript">Installation Guide for Web</a> to start building your web app.  </p>
+				<p><strong>React Native</strong></p>
+				<p>For React Native development, install <code>aws-amplify</code> </p>
+				<pre><code class="lang-bash">$ npm install aws-amplify --save
+</code></pre>
+				<p>If you are developing a <a href="https://github.com/facebook/react-native">React Native</a> app, you can install an additional package <code>aws-amplify-react-native</code> containing <a href="https://reactjs.org/docs/higher-order-components.html">Higher Order Components</a>:</p>
+				<pre><code class="lang-bash">$ npm install aws-amplify-react-native --save
+</code></pre>
+				<p>Visit our <a href="https://aws.github.io/aws-amplify/media/install_n_config?platform=react-native">Installation Guide for React Native</a> to start building your web app.  </p>
+				<h2 id="configuration">Configuration</h2>
+				<p>Somewhere in your app, preferably at the root level, configure Amplify with your resources.</p>
+				<p><strong>Using AWS Resources</strong></p>
+				<pre><code class="lang-js"><span class="hljs-keyword">import</span> Amplify <span class="hljs-keyword">from</span> <span class="hljs-string">'aws-amplify'</span>;
+<span class="hljs-keyword">import</span> aws_exports <span class="hljs-keyword">from</span> <span class="hljs-string">'./aws-exports'</span>;
+
+Amplify.configure(aws_exports);
+
+<span class="hljs-comment">// or you don't want to install all the categories</span>
+<span class="hljs-keyword">import</span> Amplify <span class="hljs-keyword">from</span> <span class="hljs-string">'@aws-amplify/core'</span>;
+<span class="hljs-keyword">import</span> Auth <span class="hljs-keyword">from</span> <span class="hljs-string">'@aws-amplify/auth'</span>;
+<span class="hljs-keyword">import</span> aws_exports <span class="hljs-keyword">from</span> <span class="hljs-string">'./aws-exports'</span>;
+
+<span class="hljs-comment">// in this way you are only importing Auth and configuring it.</span>
+Amplify.configure(aws_exports);
+
+</code></pre>
+				<p><strong>Without AWS</strong></p>
+				<pre><code class="lang-js">Amplify.configure({
+  <span class="hljs-attr">API</span>: {
+    <span class="hljs-attr">graphql_endpoint</span>: <span class="hljs-string">'https://www.example.com/my-graphql-endpoint'</span>
+  }
+});
+</code></pre>
+				<h2 id="examples">Examples</h2>
+				<p>AWS Amplify supports many category scenarios such as Auth, Analytics, APIs and Storage as outlined in the <a href="https://aws.github.io/aws-amplify/media/developer_guide">Developer Guide</a>. A couple of samples are below:</p>
+				<h3 id="1-collect-user-session-metrics">1. Collect user session metrics</h3>
+				<p>By default, AWS Amplify can collect user session tracking data with a few lines of code:</p>
+				<pre><code class="lang-js"><span class="hljs-keyword">import</span> Analytics <span class="hljs-keyword">from</span> <span class="hljs-string">'@aws-amplify/analytics'</span>;
+
+Analytics.record(<span class="hljs-string">'myCustomEvent'</span>);
+</code></pre>
+				<p>See our <a href="https://aws.github.io/aws-amplify/media/analytics_guide">Analytics Developer Guide</a> for detailed information. </p>
+				<h3 id="2-add-authentication-to-your-app">2. Add Authentication to your App</h3>
+				<p>Add user sign up and sign in using two of the many methods available to the <a href="https://aws.github.io/aws-amplify/api/classes/authclass.html">Auth class</a>:</p>
+				<pre><code class="lang-js"><span class="hljs-keyword">import</span> Auth <span class="hljs-keyword">from</span> <span class="hljs-string">'@aws-amplify/auth'</span>;
+
+Auth.signUp({
+  <span class="hljs-attr">username</span>: <span class="hljs-string">'AmandaB'</span>,
+  <span class="hljs-attr">password</span>: <span class="hljs-string">'MyCoolPassword1!'</span>,
+  <span class="hljs-attr">attributes</span>: {
+    <span class="hljs-attr">email</span>: <span class="hljs-string">'someemail@example.com'</span>
+  }
+});
+
+Auth.signIn(username, password)
+  .then(<span class="hljs-function"><span class="hljs-params">success</span> =&gt;</span> <span class="hljs-built_in">console</span>.log(<span class="hljs-string">'successful sign in'</span>))
+  .catch(<span class="hljs-function"><span class="hljs-params">err</span> =&gt;</span> <span class="hljs-built_in">console</span>.log(err));
+</code></pre>
+				<p>See our <a href="https://aws.github.io/aws-amplify/media/authentication_guide">Authentication Developer Guide</a> for detailed information. </p>
+				<p><strong>React / React Native</strong></p>
+				<p>Adding authentication to your React or React Native app is as easy as wrapping your app&#39;s main component with our <code>withAuthenticator</code> higher order component. AWS Amplify will provide you customizable UI for common use cases such as user registration and login.</p>
+				<pre><code class="lang-jsx">
+<span class="hljs-comment">// For React</span>
+<span class="hljs-keyword">import</span> { withAuthenticator } <span class="hljs-keyword">from</span> <span class="hljs-string">'aws-amplify-react'</span>;
+
+<span class="hljs-comment">// For React Native</span>
+<span class="hljs-keyword">import</span> { withAuthenticator } <span class="hljs-keyword">from</span> <span class="hljs-string">'aws-amplify-react-native'</span>;
+
+<span class="hljs-keyword">export</span> <span class="hljs-keyword">default</span> withAuthenticator(App);
+</code></pre>
+				<p><strong>Angular</strong></p>
+				<p>To add authentication to your Angular app you can also use the built-in service provider and components:</p>
+				<pre><code class="lang-js"><span class="hljs-comment">// app.component.ts</span>
+<span class="hljs-keyword">import</span> { AmplifyService }  <span class="hljs-keyword">from</span> <span class="hljs-string">'aws-amplify-angular'</span>;
+
+...
+
+constructor( public amplify:AmplifyService ) {
+  <span class="hljs-comment">// handle auth state changes</span>
+  <span class="hljs-keyword">this</span>.amplify.authStateChange$
+    .subscribe(<span class="hljs-function"><span class="hljs-params">authState</span> =&gt;</span> {
+      <span class="hljs-keyword">this</span>.authenticated = authState.state === <span class="hljs-string">'signedIn'</span>;
+      <span class="hljs-keyword">if</span> (!authState.user) {
+        <span class="hljs-keyword">this</span>.user = <span class="hljs-literal">null</span>;
+      } <span class="hljs-keyword">else</span> {
+        <span class="hljs-keyword">this</span>.user = authState.user;
+      }
+  });
+}
+
+<span class="hljs-comment">// app.component.html</span>
+&lt;amplify-authenticator&gt;<span class="xml"><span class="hljs-tag">&lt;/<span class="hljs-name">amplify-authenticator</span>&gt;</span>
+</span>
+</code></pre>
+				<p>See our <a href="https://aws.github.io/aws-amplify/media/angular_guide">Angular Guide</a> for more details on Angular setup and usage.</p>
+				<h3 id="3-sign-http-requests">3. Sign HTTP requests</h3>
+				<p>AWS Amplify automatically signs your REST requests with <a href="http://docs.aws.amazon.com/general/latest/gr/signature-version-4.html">AWS Signature Version 4</a> when using the API module :</p>
+				<pre><code class="lang-js"><span class="hljs-keyword">import</span> API <span class="hljs-keyword">from</span> <span class="hljs-string">'@aws-amplify/api'</span>;
+
+<span class="hljs-keyword">let</span> apiName = <span class="hljs-string">'MyApiName'</span>;
+<span class="hljs-keyword">let</span> path = <span class="hljs-string">'/path'</span>; 
+<span class="hljs-keyword">let</span> options = {
+  <span class="hljs-attr">headers</span>: {...} <span class="hljs-comment">// OPTIONAL</span>
+}
+API.get(apiName, path, options).then(<span class="hljs-function"><span class="hljs-params">response</span> =&gt;</span> {
+  <span class="hljs-comment">// Add your code here</span>
+});
+</code></pre>
+				<p>See our <a href="https://aws.github.io/aws-amplify/media/api_guide">API Developer Guide</a> for detailed information. </p>
+				<h3 id="4-graphql-api-operations">4. GraphQL API Operations</h3>
+				<p>To access a GraphQL API with your app, you need to make sure to configure the endpoint URL in your app’s configuration.</p>
+				<pre><code class="lang-js"><span class="hljs-comment">// configure a custom GraphQL endpoint</span>
+Amplify.configure({
+  <span class="hljs-attr">API</span>: {
+    <span class="hljs-attr">graphql_endpoint</span>: <span class="hljs-string">'https://www.example.com/my-graphql-endpoint'</span>
+  }
+});
+
+
+<span class="hljs-comment">// Or configure an AWS AppSync endpoint.</span>
+<span class="hljs-keyword">let</span> myAppConfig = {
+  <span class="hljs-comment">// ...</span>
+  <span class="hljs-string">'aws_appsync_graphqlEndpoint'</span>: <span class="hljs-string">'https://xxxxxx.appsync-api.us-east-1.amazonaws.com/graphql'</span>,
+  <span class="hljs-string">'aws_appsync_region'</span>: <span class="hljs-string">'us-east-1'</span>,
+  <span class="hljs-string">'aws_appsync_authenticationType'</span>: <span class="hljs-string">'API_KEY'</span>,
+  <span class="hljs-string">'aws_appsync_apiKey'</span>: <span class="hljs-string">'da2-xxxxxxxxxxxxxxxxxxxxxxxxxx'</span>,
+  <span class="hljs-comment">// ...</span>
+};
+
+Amplify.configure(myAppConfig);
+</code></pre>
+				<p><strong>queries</strong></p>
+				<pre><code class="lang-js"><span class="hljs-keyword">import</span> API, { graphqlOperation } <span class="hljs-keyword">from</span> <span class="hljs-string">"@aws-amplify/api"</span>;
+
+<span class="hljs-keyword">const</span> ListEvents = <span class="hljs-string">`query ListEvents {
+  listEvents {
+    items {
+      id
+      where
+      description
+    }
+  }
+}`</span>;
+
+<span class="hljs-keyword">const</span> allEvents = <span class="hljs-keyword">await</span> API.graphql(graphqlOperation(ListEvents));
+</code></pre>
+				<p><strong>mutations</strong></p>
+				<pre><code class="lang-js"><span class="hljs-keyword">import</span> API, { graphqlOperation } <span class="hljs-keyword">from</span> <span class="hljs-string">"@aws-amplify/api"</span>;
+
+<span class="hljs-keyword">const</span> CreateEvent = <span class="hljs-string">`mutation CreateEvent($name: String!, $when: String!, $where: String!, $description: String!) {
+  createEvent(name: $name, when: $when, where: $where, description: $description) {
+    id
+    name
+    where
+    when
+    description
+  }
+}`</span>;
+
+<span class="hljs-keyword">const</span> eventDetails = {
+  <span class="hljs-attr">name</span>: <span class="hljs-string">'Party tonight!'</span>,
+  <span class="hljs-attr">when</span>: <span class="hljs-string">'8:00pm'</span>,
+  <span class="hljs-attr">where</span>: <span class="hljs-string">'Ballroom'</span>,
+  <span class="hljs-attr">decription</span>: <span class="hljs-string">'Coming together as a team!'</span>
+};
+
+<span class="hljs-keyword">const</span> newEvent = <span class="hljs-keyword">await</span> API.graphql(graphqlOperation(CreateEvent, eventDetails));
+</code></pre>
+				<p><strong>subscriptions</strong></p>
+				<pre><code class="lang-js"><span class="hljs-keyword">import</span> API, { graphqlOperation } <span class="hljs-keyword">from</span> <span class="hljs-string">"@aws-amplify/api"</span>;
+
+<span class="hljs-keyword">const</span> SubscribeToEventComments = <span class="hljs-string">`subscription subscribeToComments {
+  subscribeToComments {
+    commentId
+    content
+  }
+}`</span>;
+
+<span class="hljs-keyword">const</span> subscription = API.graphql(
+  graphqlOperation(SubscribeToEventComments)
+).subscribe({
+  <span class="hljs-attr">next</span>: <span class="hljs-function">(<span class="hljs-params">eventData</span>) =&gt;</span> <span class="hljs-built_in">console</span>.log(eventData)
+});
+</code></pre>
+				<p>See our <a href="https://aws.github.io/aws-amplify/media/api_guide#configuration-for-graphql-server">GraphQL API Developer Guide</a> for detailed information.</p>
+				<h3 id="5-upload-and-download-public-or-private-content">5. Upload and Download public or private content</h3>
+				<p>AWS Amplify provides an easy-to-use API to store and get content from public or private storage folders:  </p>
+				<pre><code class="lang-js">Storage.put(key, fileObj, {<span class="hljs-attr">level</span>: <span class="hljs-string">'private'</span>})
+  .then (<span class="hljs-function"><span class="hljs-params">result</span> =&gt;</span> <span class="hljs-built_in">console</span>.log(result))
+  .catch(<span class="hljs-function"><span class="hljs-params">err</span> =&gt;</span> <span class="hljs-built_in">console</span>.log(err));
+
+  <span class="hljs-comment">// Stores data with specifying its MIME type</span>
+Storage.put(key, fileObj, {
+  <span class="hljs-attr">level</span>: <span class="hljs-string">'private'</span>,
+  <span class="hljs-attr">contentType</span>: <span class="hljs-string">'text/plain'</span>
+})
+.then (<span class="hljs-function"><span class="hljs-params">result</span> =&gt;</span> <span class="hljs-built_in">console</span>.log(result))
+.catch(<span class="hljs-function"><span class="hljs-params">err</span> =&gt;</span> <span class="hljs-built_in">console</span>.log(err));
+</code></pre>
+				<p>See our <a href="https://aws.github.io/aws-amplify/media/storage_guide">Storage Developer Guide</a> for detailed information. </p>
 			</div>
 		</div>
 		<div class="col-4 col-menu menu-sticky-wrap menu-highlight">
@@ -79,11 +340,773 @@
 			</nav>
 			<nav class="tsd-navigation secondary menu-sticky">
 				<ul class="before-current">
+					<li class=" tsd-kind-class">
+						<a href="classes/apiclass.html" class="tsd-kind-icon">APIClass</a>
+					</li>
+					<li class=" tsd-kind-class">
+						<a href="classes/awsappsyncprovider.html" class="tsd-kind-icon">AWSApp<wbr>Sync<wbr>Provider</a>
+					</li>
+					<li class=" tsd-kind-class">
+						<a href="classes/awscredentials.html" class="tsd-kind-icon">AWSCredentials</a>
+					</li>
+					<li class=" tsd-kind-class">
+						<a href="classes/awsiotprovider.html" class="tsd-kind-icon">AWSIoTProvider</a>
+					</li>
+					<li class=" tsd-kind-class">
+						<a href="classes/awskinesisprovider.html" class="tsd-kind-icon">AWSKinesis<wbr>Provider</a>
+					</li>
+					<li class=" tsd-kind-class">
+						<a href="classes/awslexprovider.html" class="tsd-kind-icon">AWSLex<wbr>Provider</a>
+					</li>
+					<li class=" tsd-kind-class">
+						<a href="classes/awspinpointprovider.html" class="tsd-kind-icon">AWSPinpoint<wbr>Provider</a>
+					</li>
+					<li class=" tsd-kind-class">
+						<a href="classes/abstractinteractionsprovider.html" class="tsd-kind-icon">Abstract<wbr>Interactions<wbr>Provider</a>
+					</li>
+					<li class=" tsd-kind-class">
+						<a href="classes/abstractpubsubprovider.html" class="tsd-kind-icon">Abstract<wbr>Pub<wbr>Sub<wbr>Provider</a>
+					</li>
+					<li class=" tsd-kind-class">
+						<a href="classes/abstractxrprovider.html" class="tsd-kind-icon">AbstractXRProvider</a>
+					</li>
+					<li class=" tsd-kind-class">
+						<a href="classes/amplify.html" class="tsd-kind-icon">Amplify</a>
+					</li>
+					<li class=" tsd-kind-class">
+						<a href="classes/amplifyangularmodule.html" class="tsd-kind-icon">Amplify<wbr>Angular<wbr>Module</a>
+					</li>
+					<li class=" tsd-kind-class">
+						<a href="classes/amplifyionicmodule.html" class="tsd-kind-icon">Amplify<wbr>Ionic<wbr>Module</a>
+					</li>
+					<li class=" tsd-kind-class">
+						<a href="classes/amplifyservice.html" class="tsd-kind-icon">Amplify<wbr>Service</a>
+					</li>
+					<li class=" tsd-kind-class">
+						<a href="classes/analyticsclass.html" class="tsd-kind-icon">Analytics<wbr>Class</a>
+					</li>
+					<li class=" tsd-kind-class tsd-is-not-exported">
+						<a href="classes/asyncstoragecache.html" class="tsd-kind-icon">Async<wbr>Storage<wbr>Cache</a>
+					</li>
+					<li class=" tsd-kind-class">
+						<a href="classes/authclass.html" class="tsd-kind-icon">Auth<wbr>Class</a>
+					</li>
+					<li class=" tsd-kind-class">
+						<a href="classes/authenticatorcomponent.html" class="tsd-kind-icon">Authenticator<wbr>Component</a>
+					</li>
+					<li class=" tsd-kind-class">
+						<a href="classes/authenticatorcomponentcore.html" class="tsd-kind-icon">Authenticator<wbr>Component<wbr>Core</a>
+					</li>
+					<li class=" tsd-kind-class">
+						<a href="classes/authenticatorioniccomponent.html" class="tsd-kind-icon">Authenticator<wbr>Ionic<wbr>Component</a>
+					</li>
+					<li class=" tsd-kind-class">
+						<a href="classes/browserstoragecache.html" class="tsd-kind-icon">Browser<wbr>Storage<wbr>Cache</a>
+					</li>
+					<li class=" tsd-kind-class">
+						<a href="classes/cachelist.html" class="tsd-kind-icon">Cache<wbr>List</a>
+					</li>
+					<li class=" tsd-kind-class">
+						<a href="classes/cacheobject.html" class="tsd-kind-icon">Cache<wbr>Object</a>
+					</li>
+					<li class=" tsd-kind-class">
+						<a href="classes/chatbotclass.html" class="tsd-kind-icon">Chat<wbr>Bot<wbr>Class</a>
+					</li>
+					<li class=" tsd-kind-class">
+						<a href="classes/chatbotcomponent.html" class="tsd-kind-icon">Chat<wbr>Bot<wbr>Component</a>
+					</li>
+					<li class=" tsd-kind-class">
+						<a href="classes/chatbotcomponentcore.html" class="tsd-kind-icon">Chatbot<wbr>Component<wbr>Core</a>
+					</li>
+					<li class=" tsd-kind-class">
+						<a href="classes/chatbotcomponentionic.html" class="tsd-kind-icon">Chatbot<wbr>Component<wbr>Ionic</a>
+					</li>
+					<li class=" tsd-kind-class">
+						<a href="classes/clientdevice.html" class="tsd-kind-icon">Client<wbr>Device</a>
+					</li>
+					<li class=" tsd-kind-class tsd-is-not-exported">
+						<a href="classes/clientsqueue.html" class="tsd-kind-icon">Clients<wbr>Queue</a>
+					</li>
+					<li class=" tsd-kind-class">
+						<a href="classes/componentmount.html" class="tsd-kind-icon">Component<wbr>Mount</a>
+					</li>
+					<li class=" tsd-kind-class">
+						<a href="classes/confirmsigninclass.html" class="tsd-kind-icon">Confirm<wbr>Sign<wbr>InClass</a>
+					</li>
+					<li class=" tsd-kind-class">
+						<a href="classes/confirmsignincomponent.html" class="tsd-kind-icon">Confirm<wbr>Sign<wbr>InComponent</a>
+					</li>
+					<li class=" tsd-kind-class">
+						<a href="classes/confirmsignincomponentcore.html" class="tsd-kind-icon">Confirm<wbr>Sign<wbr>InComponent<wbr>Core</a>
+					</li>
+					<li class=" tsd-kind-class">
+						<a href="classes/confirmsignincomponentionic.html" class="tsd-kind-icon">Confirm<wbr>Sign<wbr>InComponent<wbr>Ionic</a>
+					</li>
+					<li class=" tsd-kind-class">
+						<a href="classes/confirmsignupclass.html" class="tsd-kind-icon">Confirm<wbr>Sign<wbr>UpClass</a>
+					</li>
+					<li class=" tsd-kind-class">
+						<a href="classes/confirmsignupcomponent.html" class="tsd-kind-icon">Confirm<wbr>Sign<wbr>UpComponent</a>
+					</li>
+					<li class=" tsd-kind-class">
+						<a href="classes/confirmsignupcomponentcore.html" class="tsd-kind-icon">Confirm<wbr>Sign<wbr>UpComponent<wbr>Core</a>
+					</li>
+					<li class=" tsd-kind-class">
+						<a href="classes/confirmsignupcomponentionic.html" class="tsd-kind-icon">Confirm<wbr>Sign<wbr>UpComponent<wbr>Ionic</a>
+					</li>
+					<li class=" tsd-kind-class">
+						<a href="classes/consolelogger.html" class="tsd-kind-icon">Console<wbr>Logger</a>
+					</li>
+					<li class=" tsd-kind-class">
+						<a href="classes/credentials.html" class="tsd-kind-icon">Credentials</a>
+					</li>
+					<li class=" tsd-kind-class tsd-is-not-exported">
+						<a href="classes/doublelinkednode.html" class="tsd-kind-icon">Double<wbr>Linked<wbr>Node</a>
+					</li>
+					<li class=" tsd-kind-class">
+						<a href="classes/dynamiccomponentdirective.html" class="tsd-kind-icon">Dynamic<wbr>Component<wbr>Directive</a>
+					</li>
+					<li class=" tsd-kind-class">
+						<a href="classes/eventtracker.html" class="tsd-kind-icon">Event<wbr>Tracker</a>
+					</li>
+					<li class=" tsd-kind-class">
+						<a href="classes/facebookoauth.html" class="tsd-kind-icon">FacebookOAuth</a>
+					</li>
+					<li class=" tsd-kind-class">
+						<a href="classes/forgotpasswordclass.html" class="tsd-kind-icon">Forgot<wbr>Password<wbr>Class</a>
+					</li>
+					<li class=" tsd-kind-class">
+						<a href="classes/forgotpasswordcomponent.html" class="tsd-kind-icon">Forgot<wbr>Password<wbr>Component</a>
+					</li>
+					<li class=" tsd-kind-class">
+						<a href="classes/forgotpasswordcomponentcore.html" class="tsd-kind-icon">Forgot<wbr>Password<wbr>Component<wbr>Core</a>
+					</li>
+					<li class=" tsd-kind-class">
+						<a href="classes/forgotpasswordcomponentionic.html" class="tsd-kind-icon">Forgot<wbr>Password<wbr>Component<wbr>Ionic</a>
+					</li>
+					<li class=" tsd-kind-class">
+						<a href="classes/formcomponent.html" class="tsd-kind-icon">Form<wbr>Component</a>
+					</li>
+					<li class=" tsd-kind-class">
+						<a href="classes/googleoauth.html" class="tsd-kind-icon">GoogleOAuth</a>
+					</li>
+					<li class=" tsd-kind-class">
+						<a href="classes/greetingclass.html" class="tsd-kind-icon">Greeting<wbr>Class</a>
+					</li>
+					<li class=" tsd-kind-class">
+						<a href="classes/greetingcomponent.html" class="tsd-kind-icon">Greeting<wbr>Component</a>
+					</li>
+					<li class=" tsd-kind-class">
+						<a href="classes/greetingcomponentcore.html" class="tsd-kind-icon">Greeting<wbr>Component<wbr>Core</a>
+					</li>
+					<li class=" tsd-kind-class">
+						<a href="classes/greetingcomponentionic.html" class="tsd-kind-icon">Greeting<wbr>Component<wbr>Ionic</a>
+					</li>
+					<li class=" tsd-kind-class">
+						<a href="classes/hubclass.html" class="tsd-kind-icon">Hub<wbr>Class</a>
+					</li>
+					<li class=" tsd-kind-class">
+						<a href="classes/i18n.html" class="tsd-kind-icon">I18n</a>
+					</li>
+					<li class=" tsd-kind-class">
+						<a href="classes/i18noptions.html" class="tsd-kind-icon">I18n<wbr>Options</a>
+					</li>
+					<li class=" tsd-kind-class">
+						<a href="classes/inmemorycache.html" class="tsd-kind-icon">In<wbr>Memory<wbr>Cache</a>
+					</li>
+					<li class=" tsd-kind-class">
+						<a href="classes/interactions.html" class="tsd-kind-icon">Interactions</a>
+					</li>
+					<li class=" tsd-kind-class">
+						<a href="classes/js.html" class="tsd-kind-icon">JS</a>
+					</li>
+					<li class=" tsd-kind-class">
+						<a href="classes/memorystorage.html" class="tsd-kind-icon">Memory<wbr>Storage</a>
+					</li>
+					<li class=" tsd-kind-class">
+						<a href="classes/methodembed.html" class="tsd-kind-icon">Method<wbr>Embed</a>
+					</li>
+					<li class=" tsd-kind-class">
+						<a href="classes/mqttoverwsprovider.html" class="tsd-kind-icon">Mqtt<wbr>OverWSProvider</a>
+					</li>
+					<li class=" tsd-kind-class">
+						<a href="classes/pageviewtracker.html" class="tsd-kind-icon">Page<wbr>View<wbr>Tracker</a>
+					</li>
+					<li class=" tsd-kind-class">
+						<a href="classes/parser.html" class="tsd-kind-icon">Parser</a>
+					</li>
+					<li class=" tsd-kind-class">
+						<a href="classes/photopickerclass.html" class="tsd-kind-icon">Photo<wbr>Picker<wbr>Class</a>
+					</li>
+					<li class=" tsd-kind-class">
+						<a href="classes/photopickercomponent.html" class="tsd-kind-icon">Photo<wbr>Picker<wbr>Component</a>
+					</li>
+					<li class=" tsd-kind-class">
+						<a href="classes/photopickercomponentcore.html" class="tsd-kind-icon">Photo<wbr>Picker<wbr>Component<wbr>Core</a>
+					</li>
+					<li class=" tsd-kind-class">
+						<a href="classes/photopickerioniccomponent.html" class="tsd-kind-icon">Photo<wbr>Picker<wbr>Ionic<wbr>Component</a>
+					</li>
+					<li class=" tsd-kind-class">
+						<a href="classes/pubsub.html" class="tsd-kind-icon">Pub<wbr>Sub</a>
+					</li>
+					<li class=" tsd-kind-class">
+						<a href="classes/pushnotification.html" class="tsd-kind-icon">Push<wbr>Notification</a>
+					</li>
+					<li class=" tsd-kind-class">
+						<a href="classes/requirenewpasswordclass.html" class="tsd-kind-icon">Require<wbr>New<wbr>Password<wbr>Class</a>
+					</li>
+					<li class=" tsd-kind-class">
+						<a href="classes/requirenewpasswordcomponent.html" class="tsd-kind-icon">Require<wbr>New<wbr>Password<wbr>Component</a>
+					</li>
+					<li class=" tsd-kind-class">
+						<a href="classes/requirenewpasswordcomponentcore.html" class="tsd-kind-icon">Require<wbr>New<wbr>Password<wbr>Component<wbr>Core</a>
+					</li>
+					<li class=" tsd-kind-class">
+						<a href="classes/requirenewpasswordcomponentionic.html" class="tsd-kind-icon">Require<wbr>New<wbr>Password<wbr>Component<wbr>Ionic</a>
+					</li>
+					<li class=" tsd-kind-class">
+						<a href="classes/restclient.html" class="tsd-kind-icon">Rest<wbr>Client</a>
+					</li>
+					<li class=" tsd-kind-class">
+						<a href="classes/restclientoptions.html" class="tsd-kind-icon">Rest<wbr>Client<wbr>Options</a>
+					</li>
+					<li class=" tsd-kind-class">
+						<a href="classes/s3albumclass.html" class="tsd-kind-icon">S3<wbr>Album<wbr>Class</a>
+					</li>
+					<li class=" tsd-kind-class">
+						<a href="classes/s3albumcomponent.html" class="tsd-kind-icon">S3<wbr>Album<wbr>Component</a>
+					</li>
+					<li class=" tsd-kind-class">
+						<a href="classes/s3albumcomponentcore.html" class="tsd-kind-icon">S3<wbr>Album<wbr>Component<wbr>Core</a>
+					</li>
+					<li class=" tsd-kind-class">
+						<a href="classes/s3albumcomponentionic.html" class="tsd-kind-icon">S3<wbr>Album<wbr>Component<wbr>Ionic</a>
+					</li>
+					<li class=" tsd-kind-class">
+						<a href="classes/s3imageclass.html" class="tsd-kind-icon">S3<wbr>Image<wbr>Class</a>
+					</li>
+					<li class=" tsd-kind-class">
+						<a href="classes/s3imagecomponent.html" class="tsd-kind-icon">S3<wbr>Image<wbr>Component</a>
+					</li>
+					<li class=" tsd-kind-class">
+						<a href="classes/s3imagecomponentcore.html" class="tsd-kind-icon">S3<wbr>Image<wbr>Component<wbr>Core</a>
+					</li>
+					<li class=" tsd-kind-class">
+						<a href="classes/s3imagecomponentionic.html" class="tsd-kind-icon">S3<wbr>Image<wbr>Component<wbr>Ionic</a>
+					</li>
+					<li class=" tsd-kind-class">
+						<a href="classes/serviceworkerclass.html" class="tsd-kind-icon">Service<wbr>Worker<wbr>Class</a>
+					</li>
+					<li class=" tsd-kind-class">
+						<a href="classes/sessiontracker.html" class="tsd-kind-icon">Session<wbr>Tracker</a>
+					</li>
+					<li class=" tsd-kind-class">
+						<a href="classes/signinclass.html" class="tsd-kind-icon">Sign<wbr>InClass</a>
+					</li>
+					<li class=" tsd-kind-class">
+						<a href="classes/signincomponent.html" class="tsd-kind-icon">Sign<wbr>InComponent</a>
+					</li>
+					<li class=" tsd-kind-class">
+						<a href="classes/signincomponentcore.html" class="tsd-kind-icon">Sign<wbr>InComponent<wbr>Core</a>
+					</li>
+					<li class=" tsd-kind-class">
+						<a href="classes/signincomponentionic.html" class="tsd-kind-icon">Sign<wbr>InComponent<wbr>Ionic</a>
+					</li>
+					<li class=" tsd-kind-class">
+						<a href="classes/signupclass.html" class="tsd-kind-icon">Sign<wbr>UpClass</a>
+					</li>
+					<li class=" tsd-kind-class">
+						<a href="classes/signupcomponent.html" class="tsd-kind-icon">Sign<wbr>UpComponent</a>
+					</li>
+					<li class=" tsd-kind-class">
+						<a href="classes/signupcomponentcore.html" class="tsd-kind-icon">Sign<wbr>UpComponent<wbr>Core</a>
+					</li>
+					<li class=" tsd-kind-class">
+						<a href="classes/signupcomponentionic.html" class="tsd-kind-icon">Sign<wbr>UpComponent<wbr>Ionic</a>
+					</li>
+					<li class=" tsd-kind-class">
+						<a href="classes/signer.html" class="tsd-kind-icon">Signer</a>
+					</li>
+					<li class=" tsd-kind-class">
+						<a href="classes/storagecache.html" class="tsd-kind-icon">Storage<wbr>Cache</a>
+					</li>
+					<li class=" tsd-kind-class">
+						<a href="classes/storageclass.html" class="tsd-kind-icon">Storage<wbr>Class</a>
+					</li>
+					<li class=" tsd-kind-class">
+						<a href="classes/storagehelper.html" class="tsd-kind-icon">Storage<wbr>Helper</a>
+					</li>
+					<li class=" tsd-kind-class">
+						<a href="classes/sumerianprovider.html" class="tsd-kind-icon">Sumerian<wbr>Provider</a>
+					</li>
+					<li class=" tsd-kind-class">
+						<a href="classes/xr.html" class="tsd-kind-icon">XR</a>
+					</li>
+					<li class=" tsd-kind-class">
+						<a href="classes/xrerror.html" class="tsd-kind-icon">XRError</a>
+					</li>
+					<li class=" tsd-kind-class">
+						<a href="classes/xrnodomelement.html" class="tsd-kind-icon">XRNo<wbr>Dom<wbr>Element</a>
+					</li>
+					<li class=" tsd-kind-class">
+						<a href="classes/xrnosceneconfigurederror.html" class="tsd-kind-icon">XRNo<wbr>Scene<wbr>Configured<wbr>Error</a>
+					</li>
+					<li class=" tsd-kind-class">
+						<a href="classes/xrprovidernotconfigured.html" class="tsd-kind-icon">XRProvider<wbr>Not<wbr>Configured</a>
+					</li>
+					<li class=" tsd-kind-class">
+						<a href="classes/xrsceneloadfailure.html" class="tsd-kind-icon">XRScene<wbr>Load<wbr>Failure</a>
+					</li>
+					<li class=" tsd-kind-class">
+						<a href="classes/xrscenenotfounderror.html" class="tsd-kind-icon">XRScene<wbr>Not<wbr>Found<wbr>Error</a>
+					</li>
+					<li class=" tsd-kind-class">
+						<a href="classes/xrscenenotloadederror.html" class="tsd-kind-icon">XRScene<wbr>Not<wbr>Loaded<wbr>Error</a>
+					</li>
 					<li class=" tsd-kind-interface">
 						<a href="interfaces/amplifyconfig.html" class="tsd-kind-icon">Amplify<wbr>Config</a>
 					</li>
 					<li class=" tsd-kind-interface">
+						<a href="interfaces/analyticsoptions.html" class="tsd-kind-icon">Analytics<wbr>Options</a>
+					</li>
+					<li class=" tsd-kind-interface">
+						<a href="interfaces/analyticsprovider.html" class="tsd-kind-icon">Analytics<wbr>Provider</a>
+					</li>
+					<li class=" tsd-kind-interface">
+						<a href="interfaces/authcache.html" class="tsd-kind-icon">Auth<wbr>Cache</a>
+					</li>
+					<li class=" tsd-kind-interface">
+						<a href="interfaces/authoptions.html" class="tsd-kind-icon">Auth<wbr>Options</a>
+					</li>
+					<li class=" tsd-kind-interface">
+						<a href="interfaces/authstate.html" class="tsd-kind-icon">Auth<wbr>State</a>
+					</li>
+					<li class=" tsd-kind-interface">
+						<a href="interfaces/cacheconfig.html" class="tsd-kind-icon">Cache<wbr>Config</a>
+					</li>
+					<li class=" tsd-kind-interface">
+						<a href="interfaces/cacheitem.html" class="tsd-kind-icon">Cache<wbr>Item</a>
+					</li>
+					<li class=" tsd-kind-interface">
+						<a href="interfaces/cacheitemoptions.html" class="tsd-kind-icon">Cache<wbr>Item<wbr>Options</a>
+					</li>
+					<li class=" tsd-kind-interface">
+						<a href="interfaces/confirmsignupoptions.html" class="tsd-kind-icon">Confirm<wbr>Sign<wbr>UpOptions</a>
+					</li>
+					<li class=" tsd-kind-interface">
+						<a href="interfaces/eventattributes.html" class="tsd-kind-icon">Event<wbr>Attributes</a>
+					</li>
+					<li class=" tsd-kind-interface">
+						<a href="interfaces/eventmetrics.html" class="tsd-kind-icon">Event<wbr>Metrics</a>
+					</li>
+					<li class=" tsd-kind-interface">
+						<a href="interfaces/eventtrackopts.html" class="tsd-kind-icon">Event<wbr>Track<wbr>Opts</a>
+					</li>
+					<li class=" tsd-kind-interface">
+						<a href="interfaces/federatedresponse.html" class="tsd-kind-icon">Federated<wbr>Response</a>
+					</li>
+					<li class=" tsd-kind-interface">
+						<a href="interfaces/federateduser.html" class="tsd-kind-icon">Federated<wbr>User</a>
+					</li>
+					<li class=" tsd-kind-interface">
+						<a href="interfaces/graphqloptions.html" class="tsd-kind-icon">GraphQLOptions</a>
+					</li>
+					<li class=" tsd-kind-interface">
+						<a href="interfaces/graphqlresult.html" class="tsd-kind-icon">GraphQLResult</a>
+					</li>
+					<li class=" tsd-kind-interface">
+						<a href="interfaces/icache.html" class="tsd-kind-icon">ICache</a>
+					</li>
+					<li class=" tsd-kind-interface">
 						<a href="interfaces/icredentials.html" class="tsd-kind-icon">ICredentials</a>
+					</li>
+					<li class=" tsd-kind-interface">
+						<a href="interfaces/interactionsoptions.html" class="tsd-kind-icon">Interactions<wbr>Options</a>
+					</li>
+					<li class=" tsd-kind-interface">
+						<a href="interfaces/interactionsprovider.html" class="tsd-kind-icon">Interactions<wbr>Provider</a>
+					</li>
+					<li class=" tsd-kind-interface">
+						<a href="interfaces/interactionsproviders.html" class="tsd-kind-icon">Interactions<wbr>Providers</a>
+					</li>
+					<li class=" tsd-kind-interface">
+						<a href="interfaces/interactionsresponse.html" class="tsd-kind-icon">Interactions<wbr>Response</a>
+					</li>
+					<li class=" tsd-kind-interface">
+						<a href="interfaces/logger.html" class="tsd-kind-icon">Logger</a>
+					</li>
+					<li class=" tsd-kind-interface">
+						<a href="interfaces/mfarequireddetails.html" class="tsd-kind-icon">Mfa<wbr>Required<wbr>Details</a>
+					</li>
+					<li class=" tsd-kind-interface">
+						<a href="interfaces/mqttprovidertoptions.html" class="tsd-kind-icon">Mqtt<wbr>Providert<wbr>Options</a>
+					</li>
+					<li class=" tsd-kind-interface">
+						<a href="interfaces/oauth.html" class="tsd-kind-icon">OAuth</a>
+					</li>
+					<li class=" tsd-kind-interface">
+						<a href="interfaces/provideroptions.html" class="tsd-kind-icon">Provider<wbr>Options</a>
+					</li>
+					<li class=" tsd-kind-interface">
+						<a href="interfaces/providertoptions.html" class="tsd-kind-icon">Providert<wbr>Options</a>
+					</li>
+					<li class=" tsd-kind-interface">
+						<a href="interfaces/pubsuboptions.html" class="tsd-kind-icon">Pub<wbr>Sub<wbr>Options</a>
+					</li>
+					<li class=" tsd-kind-interface">
+						<a href="interfaces/pubsubprovider.html" class="tsd-kind-icon">Pub<wbr>Sub<wbr>Provider</a>
+					</li>
+					<li class=" tsd-kind-interface">
+						<a href="interfaces/sceneoptions.html" class="tsd-kind-icon">Scene<wbr>Options</a>
+					</li>
+					<li class=" tsd-kind-interface">
+						<a href="interfaces/sessiontrackopts.html" class="tsd-kind-icon">Session<wbr>Track<wbr>Opts</a>
+					</li>
+					<li class=" tsd-kind-interface">
+						<a href="interfaces/signoutopts.html" class="tsd-kind-icon">Sign<wbr>Out<wbr>Opts</a>
+					</li>
+					<li class=" tsd-kind-interface">
+						<a href="interfaces/signupparams.html" class="tsd-kind-icon">Sign<wbr>UpParams</a>
+					</li>
+					<li class=" tsd-kind-interface">
+						<a href="interfaces/storageoptions.html" class="tsd-kind-icon">Storage<wbr>Options</a>
+					</li>
+					<li class=" tsd-kind-interface">
+						<a href="interfaces/xroptions.html" class="tsd-kind-icon">XROptions</a>
+					</li>
+					<li class=" tsd-kind-interface">
+						<a href="interfaces/xrprovider.html" class="tsd-kind-icon">XRProvider</a>
+					</li>
+					<li class=" tsd-kind-interface">
+						<a href="interfaces/apioptions.html" class="tsd-kind-icon">api<wbr>Options</a>
+					</li>
+					<li class=" tsd-kind-interface">
+						<a href="interfaces/pageviewtrackopts.html" class="tsd-kind-icon">page<wbr>View<wbr>Track<wbr>Opts</a>
+					</li>
+					<li class=" tsd-kind-type-alias tsd-is-not-exported">
+						<a href="globals.html#sumeriansceneoptions" class="tsd-kind-icon">Sumerian<wbr>Scene<wbr>Options</a>
+					</li>
+					<li class=" tsd-kind-variable">
+						<a href="globals.html#api" class="tsd-kind-icon">API</a>
+					</li>
+					<li class=" tsd-kind-variable">
+						<a href="globals.html#analytics" class="tsd-kind-icon">Analytics</a>
+					</li>
+					<li class=" tsd-kind-variable tsd-is-not-exported">
+						<a href="globals.html#asyncstorage" class="tsd-kind-icon">Async<wbr>Storage</a>
+					</li>
+					<li class=" tsd-kind-variable">
+						<a href="globals.html#auth" class="tsd-kind-icon">Auth</a>
+					</li>
+					<li class=" tsd-kind-variable tsd-is-not-exported">
+						<a href="globals.html#buffer_size" class="tsd-kind-icon">BUFFER_<wbr>SIZE</a>
+					</li>
+					<li class=" tsd-kind-variable tsd-is-not-exported">
+						<a href="globals.html#default_algorithm" class="tsd-kind-icon">DEFAULT_<wbr>ALGORITHM</a>
+					</li>
+					<li class=" tsd-kind-variable tsd-is-not-exported">
+						<a href="globals.html#default_port" class="tsd-kind-icon">DEFAULT_<wbr>PORT</a>
+					</li>
+					<li class=" tsd-kind-variable tsd-is-not-exported">
+						<a href="globals.html#default_provider_name" class="tsd-kind-icon">DEFAULT_<wbr>PROVIDER_<wbr>NAME</a>
+					</li>
+					<li class=" tsd-kind-variable tsd-is-not-exported">
+						<a href="globals.html#flush_interval" class="tsd-kind-icon">FLUSH_<wbr>INTERVAL</a>
+					</li>
+					<li class=" tsd-kind-variable tsd-is-not-exported">
+						<a href="globals.html#flush_size" class="tsd-kind-icon">FLUSH_<wbr>SIZE</a>
+					</li>
+					<li class=" tsd-kind-variable tsd-is-not-exported">
+						<a href="globals.html#https_port" class="tsd-kind-icon">HTTPS_<wbr>PORT</a>
+					</li>
+					<li class=" tsd-kind-variable tsd-is-not-exported">
+						<a href="globals.html#http_port" class="tsd-kind-icon">HTTP_<wbr>PORT</a>
+					</li>
+					<li class=" tsd-kind-variable">
+						<a href="globals.html#hub" class="tsd-kind-icon">Hub</a>
+					</li>
+					<li class=" tsd-kind-variable tsd-is-not-exported">
+						<a href="globals.html#iot_service_name" class="tsd-kind-icon">IOT_<wbr>SERVICE_<wbr>NAME</a>
+					</li>
+					<li class=" tsd-kind-variable tsd-is-not-exported">
+						<a href="globals.html#linking" class="tsd-kind-icon">Linking</a>
+					</li>
+					<li class=" tsd-kind-variable tsd-is-not-exported">
+						<a href="globals.html#memory_key_prefix" class="tsd-kind-icon">MEMORY_<wbr>KEY_<wbr>PREFIX</a>
+					</li>
+					<li class=" tsd-kind-variable tsd-is-not-exported">
+						<a href="globals.html#mime_map" class="tsd-kind-icon">MIME_<wbr>MAP</a>
+					</li>
+					<li class=" tsd-kind-variable tsd-is-not-exported">
+						<a href="globals.html#non_retryable_exceptions" class="tsd-kind-icon">NON_<wbr>RETRYABLE_<wbr>EXCEPTIONS</a>
+					</li>
+					<li class=" tsd-kind-variable tsd-is-not-exported">
+						<a href="globals.html#os" class="tsd-kind-icon">OS</a>
+					</li>
+					<li class=" tsd-kind-variable tsd-is-not-exported">
+						<a href="globals.html#prev_url_key" class="tsd-kind-icon">PREV_<wbr>URL_<wbr>KEY</a>
+					</li>
+					<li class=" tsd-kind-variable tsd-is-not-exported">
+						<a href="globals.html#remote_notification_received" class="tsd-kind-icon">REMOTE_<wbr>NOTIFICATION_<wbr>RECEIVED</a>
+					</li>
+					<li class=" tsd-kind-variable tsd-is-not-exported">
+						<a href="globals.html#remote_token_received" class="tsd-kind-icon">REMOTE_<wbr>TOKEN_<wbr>RECEIVED</a>
+					</li>
+					<li class=" tsd-kind-variable tsd-is-not-exported">
+						<a href="globals.html#resend_limit" class="tsd-kind-icon">RESEND_<wbr>LIMIT</a>
+					</li>
+					<li class=" tsd-kind-variable tsd-is-not-exported">
+						<a href="globals.html#rnpushnotification" class="tsd-kind-icon">RNPush<wbr>Notification</a>
+					</li>
+					<li class=" tsd-kind-variable tsd-is-not-exported">
+						<a href="globals.html#service_name" class="tsd-kind-icon">SERVICE_<wbr>NAME</a>
+					</li>
+					<li class=" tsd-kind-variable tsd-is-not-exported">
+						<a href="globals.html#sumerian_service_name" class="tsd-kind-icon">SUMERIAN_<wbr>SERVICE_<wbr>NAME</a>
+					</li>
+					<li class=" tsd-kind-variable">
+						<a href="globals.html#storage" class="tsd-kind-icon">Storage</a>
+					</li>
+					<li class=" tsd-kind-variable tsd-is-not-exported">
+						<a href="globals.html#_config" class="tsd-kind-icon">_config</a>
+					</li>
+					<li class=" tsd-kind-variable tsd-is-not-exported">
+						<a href="globals.html#_i18n" class="tsd-kind-icon">_i18n</a>
+					</li>
+					<li class=" tsd-kind-variable tsd-is-not-exported">
+						<a href="globals.html#_instance" class="tsd-kind-icon">_instance</a>
+					</li>
+					<li class=" tsd-kind-variable tsd-is-not-exported">
+						<a href="globals.html#a" class="tsd-kind-icon">a</a>
+					</li>
+					<li class=" tsd-kind-variable tsd-is-not-exported">
+						<a href="globals.html#analyticsconfigured" class="tsd-kind-icon">analytics<wbr>Configured</a>
+					</li>
+					<li class=" tsd-kind-variable tsd-is-not-exported">
+						<a href="globals.html#authconfigured" class="tsd-kind-icon">auth<wbr>Configured</a>
+					</li>
+					<li class=" tsd-kind-variable tsd-is-not-exported">
+						<a href="globals.html#cache" class="tsd-kind-icon">cache</a>
+					</li>
+					<li class=" tsd-kind-variable tsd-is-not-exported">
+						<a href="globals.html#components" class="tsd-kind-icon">components</a>
+					</li>
+					<li class=" tsd-kind-variable tsd-is-not-exported">
+						<a href="globals.html#crypto" class="tsd-kind-icon">crypto</a>
+					</li>
+					<li class=" tsd-kind-variable tsd-is-not-exported">
+						<a href="globals.html#datamemory" class="tsd-kind-icon">data<wbr>Memory</a>
+					</li>
+					<li class=" tsd-kind-variable tsd-is-not-exported">
+						<a href="globals.html#endpointupdated" class="tsd-kind-icon">endpoint<wbr>Updated</a>
+					</li>
+					<li class=" tsd-kind-variable tsd-is-not-exported">
+						<a href="globals.html#initialeventsent" class="tsd-kind-icon">initial<wbr>Event<wbr>Sent</a>
+					</li>
+					<li class=" tsd-kind-variable">
+						<a href="globals.html#instance" class="tsd-kind-icon">instance</a>
+					</li>
+					<li class=" tsd-kind-variable tsd-is-not-exported">
+						<a href="globals.html#lists" class="tsd-kind-icon">lists</a>
+					</li>
+					<li class=" tsd-kind-variable tsd-is-not-exported">
+						<a href="globals.html#logger" class="tsd-kind-icon">logger</a>
+					</li>
+					<li class=" tsd-kind-variable tsd-is-not-exported">
+						<a href="globals.html#nativematches" class="tsd-kind-icon">native<wbr>Matches</a>
+					</li>
+					<li class=" tsd-kind-variable tsd-is-not-exported">
+						<a href="globals.html#proto" class="tsd-kind-icon">proto</a>
+					</li>
+					<li class=" tsd-kind-variable tsd-is-not-exported">
+						<a href="globals.html#store" class="tsd-kind-icon">store</a>
+					</li>
+					<li class=" tsd-kind-variable tsd-is-not-exported">
+						<a href="globals.html#template" class="tsd-kind-icon">template</a>
+					</li>
+					<li class=" tsd-kind-variable tsd-is-not-exported">
+						<a href="globals.html#topicsymbol" class="tsd-kind-icon">topic<wbr>Symbol</a>
+					</li>
+					<li class=" tsd-kind-variable tsd-is-not-exported">
+						<a href="globals.html#url" class="tsd-kind-icon">url</a>
+					</li>
+					<li class=" tsd-kind-variable tsd-is-not-exported">
+						<a href="globals.html#urllib" class="tsd-kind-icon">url<wbr>Lib</a>
+					</li>
+					<li class=" tsd-kind-variable tsd-is-not-exported">
+						<a href="globals.html#waitforinit" class="tsd-kind-icon">wait<wbr>For<wbr>Init</a>
+					</li>
+					<li class=" tsd-kind-function tsd-is-not-exported">
+						<a href="globals.html#_isinteger" class="tsd-kind-icon">_is<wbr>Integer</a>
+					</li>
+					<li class=" tsd-kind-function tsd-is-not-exported">
+						<a href="globals.html#analyticsevent" class="tsd-kind-icon">analytics<wbr>Event</a>
+					</li>
+					<li class=" tsd-kind-function">
+						<a href="globals.html#authdecorator" class="tsd-kind-icon">auth<wbr>Decorator</a>
+					</li>
+					<li class=" tsd-kind-function tsd-is-not-exported">
+						<a href="globals.html#authevent" class="tsd-kind-icon">auth<wbr>Event</a>
+					</li>
+					<li class=" tsd-kind-function tsd-is-not-exported">
+						<a href="globals.html#browserclientinfo" class="tsd-kind-icon">browser<wbr>Client<wbr>Info</a>
+					</li>
+					<li class=" tsd-kind-function tsd-is-not-exported">
+						<a href="globals.html#browsertimezone" class="tsd-kind-icon">browser<wbr>Timezone</a>
+					</li>
+					<li class=" tsd-kind-function tsd-is-not-exported">
+						<a href="globals.html#browsertype" class="tsd-kind-icon">browser<wbr>Type</a>
+					</li>
+					<li class=" tsd-kind-function tsd-is-private tsd-is-not-exported">
+						<a href="globals.html#canonical_headers" class="tsd-kind-icon">canonical_<wbr>headers</a>
+					</li>
+					<li class=" tsd-kind-function tsd-is-private tsd-is-not-exported">
+						<a href="globals.html#canonical_request" class="tsd-kind-icon">canonical_<wbr>request</a>
+					</li>
+					<li class=" tsd-kind-function tsd-is-not-exported">
+						<a href="globals.html#check" class="tsd-kind-icon">check</a>
+					</li>
+					<li class=" tsd-kind-function">
+						<a href="globals.html#clientinfo" class="tsd-kind-icon">client<wbr>Info</a>
+					</li>
+					<li class=" tsd-kind-function">
+						<a href="globals.html#closest" class="tsd-kind-icon">closest</a>
+					</li>
+					<li class=" tsd-kind-function tsd-is-not-exported">
+						<a href="globals.html#credential_scope" class="tsd-kind-icon">credential_<wbr>scope</a>
+					</li>
+					<li class=" tsd-kind-function tsd-is-not-exported">
+						<a href="globals.html#decorateconfirmsignup" class="tsd-kind-icon">decorate<wbr>Confirm<wbr>Sign<wbr>Up</a>
+					</li>
+					<li class=" tsd-kind-function tsd-is-not-exported">
+						<a href="globals.html#decoratesignin" class="tsd-kind-icon">decorate<wbr>Sign<wbr>In</a>
+					</li>
+					<li class=" tsd-kind-function tsd-is-not-exported">
+						<a href="globals.html#decoratesignout" class="tsd-kind-icon">decorate<wbr>Sign<wbr>Out</a>
+					</li>
+					<li class=" tsd-kind-function tsd-is-not-exported">
+						<a href="globals.html#decoratesignup" class="tsd-kind-icon">decorate<wbr>Sign<wbr>Up</a>
+					</li>
+					<li class=" tsd-kind-function">
+						<a href="globals.html#delegate" class="tsd-kind-icon">delegate</a>
+					</li>
+					<li class=" tsd-kind-function tsd-is-not-exported">
+						<a href="globals.html#dimtomake" class="tsd-kind-icon">dim<wbr>ToMake</a>
+					</li>
+					<li class=" tsd-kind-function">
+						<a href="globals.html#dimension" class="tsd-kind-icon">dimension</a>
+					</li>
+					<li class=" tsd-kind-function">
+						<a href="globals.html#dispatch" class="tsd-kind-icon">dispatch</a>
+					</li>
+					<li class=" tsd-kind-function tsd-is-not-exported">
+						<a href="globals.html#dispatchanalyticsevent" class="tsd-kind-icon">dispatch<wbr>Analytics<wbr>Event</a>
+					</li>
+					<li class=" tsd-kind-function tsd-is-not-exported">
+						<a href="globals.html#dispatchauthevent" class="tsd-kind-icon">dispatch<wbr>Auth<wbr>Event</a>
+					</li>
+					<li class=" tsd-kind-function tsd-is-not-exported">
+						<a href="globals.html#dispatchstorageevent" class="tsd-kind-icon">dispatch<wbr>Storage<wbr>Event</a>
+					</li>
+					<li class=" tsd-kind-function tsd-is-not-exported">
+						<a href="globals.html#encrypt" class="tsd-kind-icon">encrypt</a>
+					</li>
+					<li class=" tsd-kind-function">
+						<a href="globals.html#getattributes" class="tsd-kind-icon">get<wbr>Attributes</a>
+					</li>
+					<li class=" tsd-kind-function">
+						<a href="globals.html#getbytelength" class="tsd-kind-icon">get<wbr>Byte<wbr>Length</a>
+					</li>
+					<li class=" tsd-kind-function">
+						<a href="globals.html#getcurrtime" class="tsd-kind-icon">get<wbr>Curr<wbr>Time</a>
+					</li>
+					<li class=" tsd-kind-function tsd-is-not-exported">
+						<a href="globals.html#getinstance" class="tsd-kind-icon">get<wbr>Instance</a>
+					</li>
+					<li class=" tsd-kind-function tsd-is-not-exported">
+						<a href="globals.html#geturl" class="tsd-kind-icon">get<wbr>Url</a>
+					</li>
+					<li class=" tsd-kind-function tsd-is-private tsd-is-not-exported">
+						<a href="globals.html#get_authorization_header" class="tsd-kind-icon">get_<wbr>authorization_<wbr>header</a>
+					</li>
+					<li class=" tsd-kind-function tsd-is-not-exported">
+						<a href="globals.html#get_signature" class="tsd-kind-icon">get_<wbr>signature</a>
+					</li>
+					<li class=" tsd-kind-function tsd-is-private tsd-is-not-exported">
+						<a href="globals.html#get_signing_key" class="tsd-kind-icon">get_<wbr>signing_<wbr>key</a>
+					</li>
+					<li class=" tsd-kind-function">
+						<a href="globals.html#graphqloperation" class="tsd-kind-icon">graphql<wbr>Operation</a>
+					</li>
+					<li class=" tsd-kind-function tsd-is-not-exported">
+						<a href="globals.html#hash" class="tsd-kind-icon">hash</a>
+					</li>
+					<li class=" tsd-kind-function">
+						<a href="globals.html#includes" class="tsd-kind-icon">includes</a>
+					</li>
+					<li class=" tsd-kind-function">
+						<a href="globals.html#invalidparameter" class="tsd-kind-icon">invalid<wbr>Parameter</a>
+					</li>
+					<li class=" tsd-kind-function">
+						<a href="globals.html#isinteger" class="tsd-kind-icon">is<wbr>Integer</a>
+					</li>
+					<li class=" tsd-kind-function tsd-is-not-exported">
+						<a href="globals.html#listen" class="tsd-kind-icon">listen</a>
+					</li>
+					<li class=" tsd-kind-function">
+						<a href="globals.html#matches" class="tsd-kind-icon">matches</a>
+					</li>
+					<li class=" tsd-kind-function tsd-is-not-exported">
+						<a href="globals.html#matchesselector" class="tsd-kind-icon">matches<wbr>Selector</a>
+					</li>
+					<li class=" tsd-kind-function">
+						<a href="globals.html#missingconfig" class="tsd-kind-icon">missing<wbr>Config</a>
+					</li>
+					<li class=" tsd-kind-function">
+						<a href="globals.html#parents" class="tsd-kind-icon">parents</a>
+					</li>
+					<li class=" tsd-kind-function">
+						<a href="globals.html#parseurl" class="tsd-kind-icon">parse<wbr>Url</a>
+					</li>
+					<li class=" tsd-kind-function tsd-is-not-exported">
+						<a href="globals.html#parse_service_info" class="tsd-kind-icon">parse_<wbr>service_<wbr>info</a>
+					</li>
+					<li class=" tsd-kind-function tsd-is-not-exported">
+						<a href="globals.html#sign" class="tsd-kind-icon">sign</a>
+					</li>
+					<li class=" tsd-kind-function tsd-is-not-exported">
+						<a href="globals.html#signurl" class="tsd-kind-icon">sign<wbr>Url</a>
+					</li>
+					<li class=" tsd-kind-function tsd-is-not-exported">
+						<a href="globals.html#signed_headers" class="tsd-kind-icon">signed_<wbr>headers</a>
+					</li>
+					<li class=" tsd-kind-function tsd-is-not-exported">
+						<a href="globals.html#storageevent" class="tsd-kind-icon">storage<wbr>Event</a>
+					</li>
+					<li class=" tsd-kind-function tsd-is-private tsd-is-not-exported">
+						<a href="globals.html#string_to_sign" class="tsd-kind-icon">string_<wbr>to_<wbr>sign</a>
+					</li>
+					<li class=" tsd-kind-object-literal tsd-is-not-exported">
+						<a href="globals.html#appstate" class="tsd-kind-icon">App<wbr>State</a>
+					</li>
+					<li class=" tsd-kind-object-literal">
+						<a href="globals.html#constants" class="tsd-kind-icon">Constants</a>
+					</li>
+					<li class=" tsd-kind-object-literal tsd-is-not-exported">
+						<a href="globals.html#log_levels" class="tsd-kind-icon">LOG_<wbr>LEVELS</a>
+					</li>
+					<li class=" tsd-kind-object-literal">
+						<a href="globals.html#platform" class="tsd-kind-icon">Platform</a>
+					</li>
+					<li class=" tsd-kind-object-literal">
+						<a href="globals.html#defaultconfig" class="tsd-kind-icon">default<wbr>Config</a>
+					</li>
+					<li class=" tsd-kind-object-literal tsd-is-not-exported">
+						<a href="globals.html#defaultopts" class="tsd-kind-icon">default<wbr>Opts</a>
+					</li>
+					<li class=" tsd-kind-object-literal tsd-is-not-exported">
+						<a href="globals.html#trackers" class="tsd-kind-icon">trackers</a>
 					</li>
 				</ul>
 			</nav>
